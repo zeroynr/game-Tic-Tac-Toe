@@ -59,15 +59,7 @@ AI default menggunakan algoritma Minimax yang optimal, namun kamu bisa bereksper
 - **Eksplorasi penggunaan machine learning** untuk pembelajaran dinamis
 
 ## 📸 Cuplikan
-<img width="960" alt="Image" src="https://github.com/user-attachments/assets/4a019537-f4e9-43b3-8b26-4c6a29693087" />
-
-<img width="960" alt="Image" src="https://github.com/user-attachments/assets/7fdea1ba-6259-4cdf-b4c2-9c2681128440" />
-
-<img width="960" alt="Image" src="https://github.com/user-attachments/assets/04a46122-13d0-48b9-acf3-59e86e65d5b0" />
-
-<img width="957" alt="Image" src="https://github.com/user-attachments/assets/a35f16d4-ff93-462b-ac41-eb2633d4ccaf" />
-
-<img width="960" alt="Image" src="https://github.com/user-attachments/assets/e5aeba58-3475-4425-8d66-9b07fbfc2fd3" />
+<img width="949" alt="Image" src="https://github.com/user-attachments/assets/a3037183-b9d0-4c91-b07d-4997e46b3f92" />
 
 ## 📄 Lisensi
 
