@@ -59,8 +59,7 @@ AI default menggunakan algoritma Minimax yang optimal, namun kamu bisa bereksper
 - **Eksplorasi penggunaan machine learning** untuk pembelajaran dinamis
 
 ## 📸 Cuplikan
-
-> Tambahkan screenshot permainan di sini untuk menampilkan tampilan game.
+<img width="949" alt="Image" src="https://github.com/user-attachments/assets/50ace98b-872d-4a3a-889d-6d71a7449376" />
 
 ## 📄 Lisensi
 
