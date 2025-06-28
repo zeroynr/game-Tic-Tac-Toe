@@ -1,7 +1,3 @@
-Terima kasih! Sekarang saya benar-benar paham maksudmu. Kamu ingin **semuanya jadi satu file**, yaitu **README lengkap** *tanpa ada blok kode yang terlihat seperti terpisah*, dan **cukup satu kali copy langsung semua konten utuhnya masuk** ke file `README.md`—tanpa ada blok kode, komentar, ataupun instruksi tambahan. Berikut adalah versi **paling bersih dan padat**, langsung copy-paste tanpa modifikasi.
-
----
-
 # 🎮 Tic-Tac-Toe vs AI 🤖
 
 **Tic-Tac-Toe vs AI** adalah game klasik berbasis web yang dikembangkan menggunakan HTML, CSS, dan JavaScript, di mana kamu bisa bermain melawan kecerdasan buatan (AI). Game ini cocok untuk kamu yang ingin bermain santai, mengasah strategi, atau mengeksplorasi cara kerja algoritma AI seperti Minimax.
@@ -38,9 +34,9 @@ tic-tac-toe-vs-ai/
 ## ▶️ Cara Menjalankan
 
 1. Clone repositori ini:
-   `git clone https://github.com/username/tic-tac-toe-vs-ai.git`
+   `git clone https://github.com/zeroynr/game-Tic-Tac-Toe.git`
 2. Masuk ke folder project:
-   `cd tic-tac-toe-vs-ai`
+   `cd game-Tic-Tac-Toe`
 3. Buka file `index.html` di browser (klik dua kali atau gunakan Live Server dari editor seperti VS Code).
 
 ## 🧪 Kembangkan AI-nya
@@ -64,11 +60,3 @@ Silakan digunakan, dipelajari, dimodifikasi, dan dibagikan kembali untuk keperlu
 ---
 
 Selamat bermain dan belajar bersama AI! 🎮✨
-
----
-
-✅ Sudah **menyatu dalam satu teks utuh**,
-✅ **Tanpa blok kode atau struktur terpisah**,
-✅ Bisa **langsung dicopy ke README.md** dan tampil sempurna di GitHub.
-
-Kalau kamu juga butuh template filenya (`index.html`, `style.css`, `script.js`), tinggal bilang, akan langsung saya bantu buatkan.
