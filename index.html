@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Tic-Tac-Toe dengan Q-Learning</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🤖 AI Tic-Tac-Toe</h1>
+      <div class="subtitle">
+        AI belajar menggunakan Q-Learning Reinforcement Learning
+      </div>
+
+      <div class="game-area">
+        <div class="game-board">
+          <div class="status" id="status">Mulai permainan baru!</div>
+
+          <div class="board" id="board">
+            <button class="cell" data-index="0"></button>
+            <button class="cell" data-index="1"></button>
+            <button class="cell" data-index="2"></button>
+            <button class="cell" data-index="3"></button>
+            <button class="cell" data-index="4"></button>
+            <button class="cell" data-index="5"></button>
+            <button class="cell" data-index="6"></button>
+            <button class="cell" data-index="7"></button>
+            <button class="cell" data-index="8"></button>
+          </div>
+
+          <div class="controls">
+            <button onclick="startNewGame()">🎮 Game Baru</button>
+            <button onclick="trainAI()">🧠 Latih AI (100x)</button>
+            <button onclick="resetAI()">🔄 Reset AI</button>
+          </div>
+        </div>
+
+        <div class="info-panel">
+          <div class="stats">
+            <h3>📊 Statistik</h3>
+            <div class="stat-item">
+              <span>Kemenangan Player:</span>
+              <span id="playerWins">0</span>
+            </div>
+            <div class="stat-item">
+              <span>Kemenangan AI:</span>
+              <span id="aiWins">0</span>
+            </div>
+            <div class="stat-item">
+              <span>Seri:</span>
+              <span id="draws">0</span>
+            </div>
+            <div class="stat-item">
+              <span>Total Game:</span>
+              <span id="totalGames">0</span>
+            </div>
+          </div>
+
+          <div class="learning-progress">
+            <h3>🎯 Progress Pembelajaran</h3>
+            <div>Pengalaman: <span id="experience">0</span> game</div>
+            <div class="progress-bar">
+              <div
+                class="progress-fill"
+                id="progressFill"
+                style="width: 0%"
+              ></div>
+            </div>
+            <div style="font-size: 0.8rem; margin-top: 0.5rem; opacity: 0.7">
+              Epsilon (Eksplorasi): <span id="epsilon">100%</span>
+            </div>
+          </div>
+
+          <div class="explanation">
+            <h3>🧠 Cara Kerja AI</h3>
+            <p>
+              <strong>Q-Learning:</strong> AI mempelajari nilai setiap aksi
+              dalam setiap situasi. Setiap kali bermain, AI memperbarui
+              pengetahuannya berdasarkan hasil yang didapat.
+            </p>
+            <br />
+            <p>
+              <strong>Eksplorasi vs Eksploitasi:</strong> AI mulai dengan
+              gerakan acak (eksplorasi) untuk belajar, kemudian berangsur
+              menggunakan strategi terbaik (eksploitasi).
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="container">
+        <p class="footer-text" style="text-align: center">
+          © 2025 dibuat oleh zeroynr
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
